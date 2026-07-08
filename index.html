@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rebecca Lee — Photographer & Cinematographer. Portfolio of commercial campaigns, events, lifestyle and product work.">
+    <title>Rebecca Lee — Photography & Cinematography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,400;1,600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="main-header">
+        <div class="header-logo">
+            <span class="logo-name">REBECCA LEE</span>
+            <span class="logo-tag">PHOTOGRAPHER & CINEMATOGRAPHER</span>
+        </div>
+        <nav class="header-nav">
+            <a href="#" class="nav-link active" data-view="home">WORKS</a>
+            <a href="#" class="nav-link" data-view="about">ABOUT</a>
+            <a href="#" class="nav-link" data-view="contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- ===================== MAIN CONTENT ===================== -->
+    <main class="page-container">
+
+        <!-- ── HOME VIEW ── -->
+        <section id="home-view" class="view-section active">
+
+            <!-- Hero -->
+            <div class="hero-section">
+                <div class="hero-left">
+                    <p class="hero-eyebrow">Selected Works — 2024 / 2025</p>
+                    <h1 class="hero-title">
+                        Photography &<br><span class="serif-italic">cinematography</span>
+                    </h1>
+                </div>
+                <div class="hero-right">
+                    <p class="hero-intro-text">
+                        A curated selection of commercial campaigns, events coverage, editorial lifestyle, and product work. Click any category to browse.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Staggered category grid -->
+            <div class="staggered-portfolio-grid" id="staggered-grid">
+
+                <div class="staggered-item c-videography" data-scroll-speed="-0.08" data-category="videography">
+                    <div class="category-card-wrapper">
+                        <div class="category-meta">
+                            <span class="category-index">01</span>
+                            <span class="category-genre">MOTION</span>
+                        </div>
+                        <h3 class="staggered-category-title">
+                            Cinematography &<br><span class="serif-italic">campaigns</span>
+                        </h3>
+                        <div class="category-brief">Jamie Pang × Fitmonkie</div>
+                    </div>
+                </div>
+
+                <div class="staggered-item c-events" data-scroll-speed="0.05" data-category="events">
+                    <div class="category-card-wrapper">
+                        <div class="category-meta">
+                            <span class="category-index">02</span>
+                            <span class="category-genre">EVENTS</span>
+                        </div>
+                        <h3 class="staggered-category-title">
+                            Action &<br><span class="serif-italic">events</span>
+                        </h3>
+                        <div class="category-brief">RHUFT Ultimate Frisbee</div>
+                    </div>
+                </div>
+
+                <div class="staggered-item c-lifestyle" data-scroll-speed="-0.04" data-category="lifestyle">
+                    <div class="category-card-wrapper">
+                        <div class="category-meta">
+                            <span class="category-index">03</span>
+                            <span class="category-genre">PORTRAIT</span>
+                        </div>
+                        <h3 class="staggered-category-title">
+                            Lifestyle &<br><span class="serif-italic">portraits</span>
+                        </h3>
+                        <div class="category-brief">Off Duty Pilates</div>
+                    </div>
+                </div>
+
+                <div class="staggered-item c-products" data-scroll-speed="0.09" data-category="products">
+                    <div class="category-card-wrapper">
+                        <div class="category-meta">
+                            <span class="category-index">04</span>
+                            <span class="category-genre">DETAIL</span>
+                        </div>
+                        <h3 class="staggered-category-title">
+                            Products &<br><span class="serif-italic">details</span>
+                        </h3>
+                        <div class="category-brief">Outdoor Product Shoot</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Scroll nudge -->
+            <div class="scroll-nudge">
+                <span>Scroll to explore</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+            </div>
+
+        </section>
+
+        <!-- ── PROJECT / GALLERY VIEW ── -->
+        <section id="project-view" class="view-section">
+            <div class="project-layout">
+
+                <!-- Sticky left: just title + back -->
+                <div class="project-sticky-col">
+                    <button class="back-btn" id="project-back-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        <span>Index</span>
+                    </button>
+                    <div class="project-identity">
+                        <span class="project-num" id="proj-num">01</span>
+                        <h2 class="project-title" id="proj-title">Category</h2>
+                        <p class="project-subtitle" id="proj-subtitle">Sub</p>
+                    </div>
+                </div>
+
+                <!-- Scrolling gallery -->
+                <div class="project-scrolling-gallery" id="proj-gallery"></div>
+            </div>
+        </section>
+
+        <!-- ── ABOUT VIEW ── -->
+        <section id="about-view" class="view-section">
+            <div class="about-layout">
+                <div class="about-text">
+                    <span class="about-eyebrow">About</span>
+                    <h2 class="about-title">REBECCA LEE</h2>
+                    <p class="about-body">
+                        Based in Singapore. I shoot commercial campaigns, events, lifestyle and editorial work. I care about light, timing and letting moments speak for themselves.
+                    </p>
+                    <p class="about-body">
+                        Available for projects and collaborations.
+                    </p>
+                    <a href="#" class="about-cta" data-view="contact">Get in touch →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── CONTACT VIEW ── -->
+        <section id="contact-view" class="view-section">
+            <div class="contact-layout">
+                <div class="contact-header">
+                    <h2 class="contact-title">CONTACT</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <a href="mailto:rebeccalee@email.com" class="contact-line">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-val">rebeccalee@email.com</span>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="contact-line">
+                            <span class="contact-label">Instagram</span>
+                            <span class="contact-val">@rebeccalee</span>
+                        </a>
+                        <div class="contact-line">
+                            <span class="contact-label">Based in</span>
+                            <span class="contact-val">Singapore</span>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cf-name">Name</label>
+                                <input type="text" id="cf-name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cf-email">Email</label>
+                                <input type="email" id="cf-email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cf-msg">Message</label>
+                            <textarea id="cf-msg" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Send →</button>
+                        <p class="form-success" id="form-success">Thanks! I'll be in touch soon.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== VINYL STACK OVERLAY ===================== -->
+    <div id="vinyl-overlay" class="vinyl-overlay">
+        <div class="vinyl-backdrop" id="vinyl-backdrop"></div>
+        <div class="vinyl-panel">
+            <button class="vinyl-close-btn" id="vinyl-close-btn" aria-label="Close">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <p class="vinyl-category-label" id="vinyl-cat-label">Category</p>
+            <div class="vinyl-stack" id="vinyl-stack">
+                <!-- Cards injected by JS -->
+            </div>
+            <div class="vinyl-nav">
+                <button class="vinyl-nav-btn" id="vinyl-prev" aria-label="Previous">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <span class="vinyl-counter" id="vinyl-counter">01 / 10</span>
+                <button class="vinyl-nav-btn" id="vinyl-next" aria-label="Next">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            <button class="vinyl-open-gallery-btn" id="vinyl-open-gallery">
+                View full gallery
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- ===================== LIGHTBOX ===================== -->
+    <div id="lightbox" class="lightbox-modal">
+        <div class="lightbox-backdrop"></div>
+        <div class="lb-topbar">
+            <span class="lb-counter" id="lb-counter">01 / 10</span>
+            <button class="lb-close" id="lb-close" aria-label="Close">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="lb-content">
+            <button class="lb-nav prev" id="lb-prev">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <div class="lb-media" id="lb-media"></div>
+            <button class="lb-nav next" id="lb-next">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
