@@ -1,143 +1,39 @@
-const assetDatabase = {
-  "categories": [
-    {
-      "id": "videography",
-      "title": "Cinematography",
-      "subtitle": "Jamie Pang \u00d7 Fitmonkie",
-      "type": "video",
-      "items": [
-        {
-          "name": "45165a45321345909618b572d4556bbc.MOV",
-          "path": "Jamie Pang : Fitmonkie/45165a45321345909618b572d4556bbc.MOV"
-        },
-        {
-          "name": "5b3a890b789942f3875a77c2dfdb560d.MOV",
-          "path": "Jamie Pang : Fitmonkie/5b3a890b789942f3875a77c2dfdb560d.MOV"
-        },
-        {
-          "name": "867cd2fb55714d21943f639502d67cb4.MOV",
-          "path": "Jamie Pang : Fitmonkie/867cd2fb55714d21943f639502d67cb4.MOV"
-        },
-        {
-          "name": "8c8133b79029451490fa78a780f79cbc.MOV",
-          "path": "Jamie Pang : Fitmonkie/8c8133b79029451490fa78a780f79cbc.MOV"
-        },
-        {
-          "name": "923110b4f65d4a69bfdfeb0aef92a5f2.MOV",
-          "path": "Jamie Pang : Fitmonkie/923110b4f65d4a69bfdfeb0aef92a5f2.MOV"
-        },
-        {
-          "name": "Mcd x UOB-.final.mp4",
-          "path": "Jamie Pang : Fitmonkie/Mcd x UOB-.final.mp4"
-        },
-        {
-          "name": "Team shoot.mp4",
-          "path": "Jamie Pang : Fitmonkie/Team shoot.mp4"
-        },
-        {
-          "name": "d1b3b96751864b97a27e2fdaa990d31a.MOV",
-          "path": "Jamie Pang : Fitmonkie/d1b3b96751864b97a27e2fdaa990d31a.MOV"
-        },
-        {
-          "name": "f296bcdb63ed44c3bcd8c403a153de51.MOV",
-          "path": "Jamie Pang : Fitmonkie/f296bcdb63ed44c3bcd8c403a153de51.MOV"
-        }
-      ]
-    },
-    {
-      "id": "events",
-      "title": "Events & Action",
-      "subtitle": "RHUFT Ultimate Frisbee",
-      "type": "mixed",
-      "items": [
-        {
-          "name": "BI2A9756.mp4",
-          "path": "frisbee/rhuft set 1/BI2A9756.mp4"
-        },
-        {
-          "name": "BI2A7711.jpg",
-          "path": "frisbee/rhuft set 1/BI2A7711.jpg"
-        },
-        {
-          "name": "BI2A7969.jpg",
-          "path": "frisbee/rhuft set 1/BI2A7969.jpg"
-        },
-        {
-          "name": "BI2A8207.jpg",
-          "path": "frisbee/rhuft set 1/BI2A8207.jpg"
-        },
-        {
-          "name": "BI2A8498.jpg",
-          "path": "frisbee/rhuft set 1/BI2A8498.jpg"
-        },
-        {
-          "name": "BI2A8755.jpg",
-          "path": "frisbee/rhuft set 1/BI2A8755.jpg"
-        },
-        {
-          "name": "BI2A8973.jpg",
-          "path": "frisbee/rhuft set 1/BI2A8973.jpg"
-        },
-        {
-          "name": "BI2A9201.jpg",
-          "path": "frisbee/rhuft set 1/BI2A9201.jpg"
-        },
-        {
-          "name": "BI2A9411.jpg",
-          "path": "frisbee/rhuft set 1/BI2A9411.jpg"
-        },
-        {
-          "name": "BI2A9633.jpg",
-          "path": "frisbee/rhuft set 1/BI2A9633.jpg"
-        }
-      ]
-    },
-    {
+{
       "id": "lifestyle",
       "title": "Lifestyle & Portraits",
       "subtitle": "Off Duty Pilates",
       "type": "photo",
       "items": [
-        {
-          "name": "DSC00497.jpg",
-          "path": "off duty pilates /DSC00497.jpg"
-        },
-        {
-          "name": "DSC00517.jpg",
-          "path": "off duty pilates /DSC00517.jpg"
-        },
-        {
-          "name": "DSC00529.jpg",
-          "path": "off duty pilates /DSC00529.jpg"
-        },
-        {
-          "name": "DSC00539.jpg",
-          "path": "off duty pilates /DSC00539.jpg"
-        },
-        {
-          "name": "DSC00571.jpg",
-          "path": "off duty pilates /DSC00571.jpg"
-        },
-        {
-          "name": "DSC00581.jpg",
-          "path": "off duty pilates /DSC00581.jpg"
-        },
-        {
-          "name": "DSC00586.jpg",
-          "path": "off duty pilates /DSC00586.jpg"
-        },
-        {
-          "name": "DSC00594.jpg",
-          "path": "off duty pilates /DSC00594.jpg"
-        },
-        {
-          "name": "DSC00614.jpg",
-          "path": "off duty pilates /DSC00614.jpg"
-        },
-        {
-          "name": "DSC00627.jpg",
-          "path": "off duty pilates /DSC00627.jpg"
-        }
+        { "name": "Off_Duty_Pilates_01.jpg", "path": "https://drive.google.com/uc?export=download&id=1RCsOzhvXO4BOHwBX_Y0Df33bfy-nsuga1" },
+        { "name": "Off_Duty_Pilates_02.jpg", "path": "https://drive.google.com/uc?export=download&id=ipxQeA9Qp-uJtPb9-JE4RNUmuff3iFFh1" },
+        { "name": "Off_Duty_Pilates_03.jpg", "path": "https://drive.google.com/uc?export=download&id=xpKo4aLvYJoRPiI7l_2-a5-QNNuFX5Cz1" },
+        { "name": "Off_Duty_Pilates_04.jpg", "path": "https://drive.google.com/uc?export=download&id=ogVbVl02xUiRm8dp-mX6J-OC0lLhs45A1" },
+        { "name": "Off_Duty_Pilates_05.jpg", "path": "https://drive.google.com/uc?export=download&id=yhGmi4KnO2k4IVldjZ7b8qGqdE9AeIvu1" },
+        { "name": "Off_Duty_Pilates_06.jpg", "path": "https://drive.google.com/uc?export=download&id=Ib_dMhTH3vrAl5MO3vlMAnveqQQqJjyi1" },
+        { "name": "Off_Duty_Pilates_07.jpg", "path": "https://drive.google.com/uc?export=download&id=uELRCIDVZ6KFZVC0rLFGITg4-p7YiyMV1" },
+        { "name": "Off_Duty_Pilates_08.jpg", "path": "https://drive.google.com/uc?export=download&id=yMjIndg8tEuMc3AKKACGB5lib9_UJCCL1" },
+        { "name": "Off_Duty_Pilates_09.jpg", "path": "https://drive.google.com/uc?export=download&id=SRI4zucpRqn8heIm_kui68_9RxZbYtQ6M" },
+        { "name": "Off_Duty_Pilates_10.jpg", "path": "https://drive.google.com/uc?export=download&id=10bt8_5I2hcitB0mAKSZBMY-7XJ5tR4NJ" },
+        { "name": "Off_Duty_Pilates_11.jpg", "path": "https://drive.google.com/uc?export=download&id=1hVs7nE7F6Tt5O3TmYP3OEQZgbAbSciA1" },
+        { "name": "Off_Duty_Pilates_12.jpg", "path": "https://drive.google.com/uc?export=download&id=AbKLrpnclusEwfezr8ZdzFa8m9dPvVNU1" },
+        { "name": "Off_Duty_Pilates_13.jpg", "path": "https://drive.google.com/uc?export=download&id=riReuYIP5fqeNF-37KYQ5WSszTCLOa7c1" },
+        { "name": "Off_Duty_Pilates_14.jpg", "path": "https://drive.google.com/uc?export=download&id=zhRRMCC30p2Xo-SQ9VINKwcPa_SFFrJf1" },
+        { "name": "Off_Duty_Pilates_15.jpg", "path": "https://drive.google.com/uc?export=download&id=D6kI6rc6agqSQKzwrPROG57vkvD45TV1d" },
+        { "name": "Off_Duty_Pilates_16.jpg", "path": "https://drive.google.com/uc?export=download&id=_yqfYGaxBPP9ko1n27epDv1e4M2NQ-C1" },
+        { "name": "Off_Duty_Pilates_17.jpg", "path": "https://drive.google.com/uc?export=download&id=G5Jn1dBu_NG7D8QKQGgjrJ8F5tI-Utid1" },
+        { "name": "Off_Duty_Pilates_18.jpg", "path": "https://drive.google.com/uc?export=download&id=oGO8rxgZhiCvSDsVAbfPPgzy09GWRggB1" },
+        { "name": "Off_Duty_Pilates_19.jpg", "path": "https://drive.google.com/uc?export=download&id=6b4lJDDWa8g5tYNqG6gkAKj5U8VvMrVT1" },
+        { "name": "Off_Duty_Pilates_20.jpg", "path": "https://drive.google.com/uc?export=download&id=i4It7E0W-r_r-yvJ_RCEuYcEQUfLSBE51" },
+        { "name": "Off_Duty_Pilates_21.jpg", "path": "https://drive.google.com/uc?export=download&id=GOmZYO2XGAOeYI5rKqQ2t0C0YsbrrxhJ1" },
+        { "name": "Off_Duty_Pilates_22.jpg", "path": "https://drive.google.com/uc?export=download&id=2wJFB50v4J7_ys88JIO72KC7KyO5qlMI1" },
+        { "name": "Off_Duty_Pilates_23.jpg", "path": "https://drive.google.com/uc?export=download&id=2ZRYEu-Tef6QVYossvgn7odMYMBHzv1-" },
+        { "name": "Off_Duty_Pilates_24.jpg", "path": "https://drive.google.com/uc?export=download&id=oLzJRfkPTJBPqBikB-phA0CY-iVuIOA1" },
+        { "name": "Off_Duty_Pilates_25.jpg", "path": "https://drive.google.com/uc?export=download&id=uagelACquGbvFABy7f_mTk-W-Ul-HXQL1" },
+        { "name": "Off_Duty_Pilates_26.jpg", "path": "https://drive.google.com/uc?export=download&id=2PGieojyRLzQSicndWca0lCSoBjGysy61" },
+        { "name": "Off_Duty_Pilates_27.jpg", "path": "https://drive.google.com/uc?export=download&id=0yD5as4ZhsET_p9gRF2-eQS4XzsF_Ep1V" },
+        { "name": "Off_Duty_Pilates_28.jpg", "path": "https://drive.google.com/uc?export=download&id=-Vru2_8Ol5OmE0xP8d56qZA4ycGhe8c1" },
+        { "name": "Off_Duty_Pilates_29.jpg", "path": "https://drive.google.com/uc?export=download&id=1VDba_Qr6Yj-7LMkBTWIkZGXGeZyaF_V1" },
+        { "name": "Off_Duty_Pilates_30.jpg", "path": "https://drive.google.com/uc?export=download&id=xuDCjwECYVpsdR4J6ouGbqC5tG5C2dEc" }
       ]
     },
     {
@@ -146,49 +42,59 @@ const assetDatabase = {
       "subtitle": "Outdoor Product Shoot",
       "type": "photo",
       "items": [
-        {
-          "name": "_DSC3353.jpg",
-          "path": "Outside product shot/_DSC3353.jpg"
-        },
-        {
-          "name": "_DSC3374 1.jpg",
-          "path": "Outside product shot/_DSC3374 1.jpg"
-        },
-        {
-          "name": "_DSC3407.jpg",
-          "path": "Outside product shot/_DSC3407.jpg"
-        },
-        {
-          "name": "_DSC3415.jpg",
-          "path": "Outside product shot/_DSC3415.jpg"
-        },
-        {
-          "name": "_DSC3459.jpg",
-          "path": "Outside product shot/_DSC3459.jpg"
-        },
-        {
-          "name": "_DSC3581.jpg",
-          "path": "Outside product shot/_DSC3581.jpg"
-        },
-        {
-          "name": "_DSC3637.jpg",
-          "path": "Outside product shot/_DSC3637.jpg"
-        },
-        {
-          "name": "_DSC3655.jpg",
-          "path": "Outside product shot/_DSC3655.jpg"
-        },
-        {
-          "name": "_DSC3672 1.jpg",
-          "path": "Outside product shot/_DSC3672 1.jpg"
-        },
-        {
-          "name": "_DSC3687.jpg",
-          "path": "Outside product shot/_DSC3687.jpg"
-        }
+        { "name": "Outdoor_Product_01.jpg", "path": "https://drive.google.com/uc?export=download&id=1iYSkpgXNY4SFpe_JjhEStuQOGAvoqjm4" },
+        { "name": "Outdoor_Product_02.jpg", "path": "https://drive.google.com/uc?export=download&id=1uTDn7_-Cmkq7Nj6RkeHkAG5AH7bGezQs" },
+        { "name": "Outdoor_Product_03.jpg", "path": "https://drive.google.com/uc?export=download&id=17bIotdr1yZrc7Fv-64OVh_haV4J1uqrL1" },
+        { "name": "Outdoor_Product_04.jpg", "path": "https://drive.google.com/uc?export=download&id=mlcVeBw3qGJDwjzemmZk-bXuYkssZtee1" },
+        { "name": "Outdoor_Product_05.jpg", "path": "https://drive.google.com/uc?export=download&id=ZZZZ9snLIZg9k6gvYSYYvUlSRJ8XgCP1w" },
+        { "name": "Outdoor_Product_06.jpg", "path": "https://drive.google.com/uc?export=download&id=14GdcyZGaNzRPVFxgHN1XYSfYEUF4AS9_" },
+        { "name": "Outdoor_Product_07.jpg", "path": "https://drive.google.com/uc?export=download&id=1d9XXyqMSYyoRHtbjjZpuDE6Da7mENTwk" },
+        { "name": "Outdoor_Product_08.jpg", "path": "https://drive.google.com/uc?export=download&id=1KN7zbhF871S6vvNRH9_-UULAZxyrC9hg" },
+        { "name": "Outdoor_Product_09.jpg", "path": "https://drive.google.com/uc?export=download&id=1L2Agyiug9zKbrFf-vBZHdsXWdfcrH71Y" },
+        { "name": "Outdoor_Product_10.jpg", "path": "https://drive.google.com/uc?export=download&id=1Pe7_Oouu7swAaQBHTnilRyPh5sxc_tUD" },
+        { "name": "Outdoor_Product_11.jpg", "path": "https://drive.google.com/uc?export=download&id=1U9E4kv08Xmc7MGflA1C0WQqahGTVJXB0" },
+        { "name": "Outdoor_Product_12.jpg", "path": "https://drive.google.com/uc?export=download&id=1seoaCj4JkWJQ9E8lgpyyFuqBqY6VTfP61" },
+        { "name": "Outdoor_Product_13.jpg", "path": "https://drive.google.com/uc?export=download&id=fGvu5Js0xoS9ownOWTubiQqhGbHbIV4B" },
+        { "name": "Outdoor_Product_14.jpg", "path": "https://drive.google.com/uc?export=download&id=1nY7mxN6u_9xqUFGmar7SO4tA6Yvvlcfi" },
+        { "name": "Outdoor_Product_15.jpg", "path": "https://drive.google.com/uc?export=download&id=11FcLvcf8QxpWNl9d-ox8uRWoJoy4helac" },
+        { "name": "Outdoor_Product_16.jpg", "path": "https://drive.google.com/uc?export=download&id=11jC514CD2Fe_rq7aw8YPkFm4ffQSbsoX" },
+        { "name": "Outdoor_Product_17.jpg", "path": "https://drive.google.com/uc?export=download&id=11n2oP6e0wrUDXc3KwPcSC61u4__tPlqk" },
+        { "name": "Outdoor_Product_18.jpg", "path": "https://drive.google.com/uc?export=download&id=C1HaO0d_wWm9xpLEyqBiJFau40glK8oJ" },
+        { "name": "Outdoor_Product_19.jpg", "path": "https://drive.google.com/uc?export=download&id=Kd1HjPC9w4ol7DGUM1sd7Q9zFItNiaVI-" },
+        { "name": "Outdoor_Product_20.jpg", "path": "https://drive.google.com/uc?export=download&id=V91G6N5IrVKMf34opLu98-5G5c31NnnAA" },
+        { "name": "Outdoor_Product_21.jpg", "path": "https://drive.google.com/uc?export=download&id=Pl1Imxo_UA61V3SqrybSpRYhUglgHsn2Y" },
+        { "name": "Outdoor_Product_22.jpg", "path": "https://drive.google.com/uc?export=download&id=LR12HA0OQcqKGXHy7YisE8Ndn2zZ3IjHw" },
+        { "name": "Outdoor_Product_23.jpg", "path": "https://drive.google.com/uc?export=download&id=6R1ULHHIsrFafj2vcVcUhFEkEat-h3RU8" },
+        { "name": "Outdoor_Product_24.jpg", "path": "https://drive.google.com/uc?export=download&id=uW16fKo7s2GHRKLx_NmTItK1nMB6Czjse" },
+        { "name": "Outdoor_Product_25.jpg", "path": "https://drive.google.com/uc?export=download&id=an1hV2-TlzdGlSJkl05LLj0nqiNO-M6yT" },
+        { "name": "Outdoor_Product_26.jpg", "path": "https://drive.google.com/uc?export=download&id=bG1xAXY1o8mmpt37EH01AfWnr8bWF6GlV" },
+        { "name": "Outdoor_Product_27.jpg", "path": "https://drive.google.com/uc?export=download&id=Cb1zgllWCfkmtYogPdfbWE2RU6U_iutP7" },
+        { "name": "Outdoor_Product_28.jpg", "path": "https://drive.google.com/uc?export=download&id=cL1q7ZOx0-OdzHkiVba0u5RW2oAReVuvj" },
+        { "name": "Outdoor_Product_29.jpg", "path": "https://drive.google.com/uc?export=download&id=YL1pqrLvMsWJXEj8NaxQkOcv_qF8Jz2m7" },
+        { "name": "Outdoor_Product_30.jpg", "path": "https://drive.google.com/uc?export=download&id=QH14ba1Yg7FxGgxj3QKy2wReKTIWa8xaq" },
+        { "name": "Outdoor_Product_31.jpg", "path": "https://drive.google.com/uc?export=download&id=Oo163_eEdGeVSo_YasVSCSUaFOFGgVmN8" },
+        { "name": "Outdoor_Product_32.jpg", "path": "https://drive.google.com/uc?export=download&id=P1nC_neIEYWRxuONeVThlfPA0WYRmkY__" },
+        { "name": "Outdoor_Product_33.jpg", "path": "https://drive.google.com/uc?export=download&id=U1Y7akfs2Nwj7eXd4EIQHaNTRSo2d6gOF" },
+        { "name": "Outdoor_Product_34.jpg", "path": "https://drive.google.com/uc?export=download&id=y117mw3CKi_deC_FtTTzUPCtXccultS1" },
+        { "name": "Outdoor_Product_35.jpg", "path": "https://drive.google.com/uc?export=download&id=a_KjYjz_PbscoQ4X_XWw9qLrZ-4HxV2l1" },
+        { "name": "Outdoor_Product_36.jpg", "path": "https://drive.google.com/uc?export=download&id=0_PoALtrK4n9ivJ2iZ6Dglxs_w12UaFz1" },
+        { "name": "Outdoor_Product_37.jpg", "path": "https://drive.google.com/uc?export=download&id=yZ8YE2SgAEt-nI2BuKJdzoomsCFmzg88" }
+      ]
+    },
+    {
+      "id": "videography",
+      "title": "Cinematography",
+      "subtitle": "Jamie Pang \u00d7 Fitmonkie",
+      "type": "video",
+      "items": [
+        { "name": "Fitmonkie_Promo_Main.mp4", "path": "https://drive.google.com/uc?export=download&id=1_1RLXoPudrZMHOihhDHhCqhkD1y0fLLQ" },
+        { "name": "Fitmonkie_Teaser_01.mp4", "path": "https://drive.google.com/uc?export=download&id=1tyWkB6MSeemGBpFHDqEvZU87u6517m0j" },
+        { "name": "Fitmonkie_Teaser_02.mp4", "path": "https://drive.google.com/uc?export=download&id=1EXyzte4r7FVvBLALnGKtpe3hoDNFIAjY" },
+        { "name": "Fitmonkie_BehindTheScenes.mp4", "path": "https://drive.google.com/uc?export=download&id=1-x_Dc7Vik3YUby5KKAjvnJai0geUTpZx" },
+        { "name": "Fitmonkie_Social_Cut.mp4", "path": "https://drive.google.com/uc?export=download&id=1ZB4bBb9kVCdgXzaWxz1OIFrARB-2_SEe" },
+        { "name": "Fitmonkie_Interview_Broll.mp4", "path": "https://drive.google.com/uc?export=download&id=15jCRrp5iXt6XziICNZKLMZsugeoyRUih" },
+        { "name": "Fitmonkie_Workout_Highlight.mp4", "path": "https://drive.google.com/uc?export=download&id=11d9qP5zGI3mAkg7JBKrgrH8HjFQk5A6d" },
+        { "name": "Fitmonkie_Cinematic_Outtakes.mp4", "path": "https://drive.google.com/uc?export=download&id=13N6nIOHmBaI5IBcpAZ-pyKCtunHt0K0b" },
+        { "name": "Fitmonkie_Alternative_Edit.mp4", "path": "https://drive.google.com/uc?export=download&id=1D55jkRP5Fu5b--kX8I2WYLc86vDljds7" }
       ]
     }
-  ]
-};
-
-export default assetDatabase;
